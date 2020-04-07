@@ -1,0 +1,25 @@
+[gd_scene format=2]
+
+[node name="gacha_game" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+margin_left = 378.147
+margin_top = 111.91
+margin_right = 500.147
+margin_bottom = 125.91
+rect_scale = Vector2( 2.51, 2.51 )
+text = "RANDOM_NUMBER"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="."]
+margin_left = 420.307
+margin_top = 323.897
+margin_right = 474.307
+margin_bottom = 343.897
+rect_scale = Vector2( 4.50997, 4.07981 )
+text = "button"
+__meta__ = {
+"_edit_use_anchors_": false
+}

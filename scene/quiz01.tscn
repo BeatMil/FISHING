@@ -1,0 +1,44 @@
+[gd_scene format=2]
+
+[node name="quiz01" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+margin_left = 351.072
+margin_top = 74.6464
+margin_right = 431.072
+margin_bottom = 90.6464
+rect_scale = Vector2( 4.22853, 4.22853 )
+text = "QUESTION1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false,
+"_editor_description_": "node in control node and switch focus with keyboard button"
+}
+
+[node name="Button" type="Button" parent="Control"]
+margin_left = 35.7993
+margin_top = 305.01
+margin_right = 144.799
+margin_bottom = 337.01
+rect_scale = Vector2( 4.06937, 4.06937 )
+text = "corrent_answer"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button2" type="Button" parent="Control"]
+margin_left = 555.605
+margin_top = 303.578
+margin_right = 664.605
+margin_bottom = 335.578
+rect_scale = Vector2( 4.06937, 4.06937 )
+text = "wrong_answer"
+__meta__ = {
+"_edit_use_anchors_": false
+}

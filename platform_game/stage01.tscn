@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://platform_game/2f1.jpg" type="Texture" id=1]
+[ext_resource path="res://platform_game/EPItcAnVUAIrwG8.jpg" type="Texture" id=2]
+[ext_resource path="res://script/illiya.gd" type="Script" id=3]
+[ext_resource path="res://script/stage01.gd" type="Script" id=4]
+
+[node name="stage01" type="Node2D"]
+script = ExtResource( 4 )
+
+[node name="illiya" type="Sprite" parent="."]
+position = Vector2( 200, 298.892 )
+scale = Vector2( 0.4, 0.4 )
+texture = ExtResource( 2 )
+script = ExtResource( 3 )
+
+[node name="hibiki" type="Sprite" parent="."]
+position = Vector2( 700, 312 )
+scale = Vector2( 0.8, 0.8 )
+texture = ExtResource( 1 )
