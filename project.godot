@@ -19,9 +19,10 @@ config/name="Fishing"
 run/main_scene="res://arrayyy/array.tscn"
 config/icon="res://icon.png"
 
-[autoload]
+[display]
 
-Server="*res://script/server.gd"
+window/size/width=1920
+window/size/height=1080
 
 [rendering]
 

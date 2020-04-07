@@ -16,10 +16,11 @@ func _init():
 	while(done != true):
 		if(socket.get_available_packet_count() > 0):
 			var data = socket.get_packet().get_string_from_ascii()
+#			print(socket.get_packet())
 			if(data == "quit"):
 				done = true
 			else:
-				print("Data received: " + data)
+				print("Data received: ", data)
 	socket.close()        
 	print("Exiting application")    
 	self.quit()
